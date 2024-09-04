@@ -1,0 +1,16 @@
+﻿<Application x:Class="CanvasDemo.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:CanvasDemo.Widgets.SelectorWidget">
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="/Widgets/SelectorWidget/Generic.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+
+
+            <!-- 其他全局资源可以在这里定义 -->
+
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>

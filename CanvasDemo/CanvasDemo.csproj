@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="images\1.jpg" />
+    <None Remove="images\rotate.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ColorPickerWPF" Version="1.0.9" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="8.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="images\1.jpg" />
+    <Resource Include="images\rotate.png" />
+  </ItemGroup>
+
+</Project>
